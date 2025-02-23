@@ -149,6 +149,56 @@ let quizData = [
     options: ["Pembangunan infrastruktur penting bagi ekonomi.", "Jalan dan jembatan meningkatkan aktivitas ekonomi.", "Pemerintah harus terus berinvestasi dalam infrastruktur.", "Infrastruktur yang baik mendorong pertumbuhan ekonomi."],
     correct: "Pembangunan infrastruktur penting bagi ekonomi.",
   }
+
+  const questions = [
+  {
+    question: "Bacalah tulisan berikut, kemudian jawablah soal di bawah ini:\n\n" +
+      "Konsumsi ikan memang telah terbukti memiliki segudang manfaat kesehatan. Salah satu ikan yang diklaim kaya akan manfaat dan kandungan gizinya adalah Salmon. Meski harganya relatif mahal, salmon mengandung protein dan asam lemak omega tiga yang tinggi. Banyak penelitian yang menunjukkan meningkatkan konsumsi salmon menurunkan risiko obesitas, diabet, dan penyakit jantung. Selain itu, salmon juga bisa menjadi sumber protein hewani selain ayam dan daging sapi. Salmon kaya akan protein namun kandungan lemaknya lebih sedikit sehingga menjadi sumber protein ideal yang membantu menurunkan berat badan. Salmon juga memiliki sejumlah manfaat kesehatan, baik untuk kesehatan fisik atau mental.\n\n" +
+      "Konjungsi yang tepat untuk menggantikan kata 'namun' dalam bacaan adalah ....",
+    options: ["Dan", "Tetapi", "Sedangkan", "Serta", "Tidak perlu diperbaiki"],
+    correct: "Tetapi"
+  },
+  {
+    question: "Bacalah tulisan berikut, kemudian jawablah soal di bawah ini:\n\n" +
+      "Konsumsi ikan memang telah terbukti memiliki segudang manfaat kesehatan. Salah satu ikan yang diklaim kaya akan manfaat dan kandungan gizinya adalah Salmon. Meski harganya relatif mahal, salmon mengandung protein dan asam lemak omega tiga yang tinggi. Banyak penelitian yang menunjukkan meningkatkan konsumsi salmon menurunkan risiko obesitas, diabet, dan penyakit jantung. Selain itu, salmon juga bisa menjadi sumber protein hewani selain ayam dan daging sapi. Salmon kaya akan protein namun kandungan lemaknya lebih sedikit sehingga menjadi sumber protein ideal yang membantu menurunkan berat badan. Salmon juga memiliki sejumlah manfaat kesehatan, baik untuk kesehatan fisik atau mental.\n\n" +
+      "Di bawah ini yang merupakan sinonim dari kata konsumsi, kecuali…",
+    options: ["Pemakaian", "Penggunaan", "Makanan", "Santapan", "Pemborosan"],
+    correct: "Pemborosan"
+  },
+  {
+    question: "Bacalah tulisan berikut, kemudian jawablah soal di bawah ini:\n\n" +
+      "(1) Para astronom menemukan galaksi yang mirip dengan Bima Sakti yang kita tinggali. (2) Galaksi tersebut berjarak 12 miliar tahun cahaya dan diperkirakan terbentuk ketika alam semesta masih sangat muda, berusia sekitar 1,4 miliar. (3) Ditemukannya galaksi ini menawarkan cara untuk melihat kembali bentuk galaksi di awal kehidupan alam semesta, ketika usianya baru 10% dari sekarang. (4) Dilansir dari The Independent, para ilmuwan terkejut karena galaksi tersebut jauh lebih mirip dari yang diharapkan. (5) Galaksi-galaksi dari masa awal pembentukan semesta diperkirakan sangat bergejolak dan tidak stabil. (6) Namun, yang baru ditemukan kali ini tidak sekacau seperti yang dijelaskan dalam teori. (7) Ketika para peneliti memelajari galaksi yang baru ditemukan bernama SPT0418-47 ini, mereka melihat bahwa itu memiliki fitur dan karakteristik seperti Bima Sakti. (8) Galaksi SPT0418-47 memiliki piringan berputar dan sekelompok besar bintang pada pusatnya yang disebut para ilmuwan sebagai 'tonjolan' dan belum pernah terlihat sebelumnya di alam semesta.\n\n" +
+      "Gagasan utama yang tepat untuk bacaan di atas ialah....",
+    options: [
+      "Penemuan galaksi terbaru",
+      "Karakteristik galaksi baru",
+      "Penemuan galaksi mirip dengan Bima Sakti",
+      "Hasil penelitian galaksi terbaru",
+      "Bahaya yang mengancam ditemukannya galaksi baru"
+    ],
+    correct: "Penemuan galaksi mirip dengan Bima Sakti"
+  },
+  {
+    question: "Bacalah tulisan berikut, kemudian jawablah soal di bawah ini:\n\n" +
+      "(1) Para astronom menemukan galaksi yang mirip dengan Bima Sakti yang kita tinggali. (2) Galaksi tersebut berjarak 12 miliar tahun cahaya dan diperkirakan terbentuk ketika alam semesta masih sangat muda, berusia sekitar 1,4 miliar. (3) Ditemukannya galaksi ini menawarkan cara untuk melihat kembali bentuk galaksi di awal kehidupan alam semesta, ketika usianya baru 10% dari sekarang. (4) Dilansir dari The Independent, para ilmuwan terkejut karena galaksi tersebut jauh lebih mirip dari yang diharapkan. (5) Galaksi-galaksi dari masa awal pembentukan semesta diperkirakan sangat bergejolak dan tidak stabil. (6) Namun, yang baru ditemukan kali ini tidak sekacau seperti yang dijelaskan dalam teori.\n\n" +
+      "Kesalahan penulisan kata terdapat pada....",
+    options: ["Kalimat 3", "Kalimat 8", "Kalimat 5", "Kalimat 1", "Kalimat 4"],
+    correct: "Kalimat 1"
+  },
+  {
+    question: "Bacalah tulisan berikut, kemudian jawablah soal di bawah ini:\n\n" +
+      "(1) Para astronom menemukan galaksi yang mirip dengan Bima Sakti yang kita tinggali. (2) Galaksi tersebut berjarak 12 miliar tahun cahaya dan diperkirakan terbentuk ketika alam semesta masih sangat muda, berusia sekitar 1,4 miliar. (3) Ditemukannya galaksi ini menawarkan cara untuk melihat kembali bentuk galaksi di awal kehidupan alam semesta, ketika usianya baru 10% dari sekarang. (4) Dilansir dari The Independent, para ilmuwan terkejut karena galaksi tersebut jauh lebih mirip dari yang diharapkan. (5) Galaksi-galaksi dari masa awal pembentukan semesta diperkirakan sangat bergejolak dan tidak stabil. (6) Namun, yang baru ditemukan kali ini tidak sekacau seperti yang dijelaskan dalam teori.\n\n" +
+      "Perbaikan konjungsi pada kalimat nomor 6 ialah…",
+    options: ["TIDAK PERLU DIPERBAIKI", "Oleh karena itu", "Sehingga", "Tetapi", "Dan"],
+    correct: "TIDAK PERLU DIPERBAIKI"
+  },
+  {
+    question: "Bacalah tulisan berikut, kemudian jawablah soal di bawah ini:\n\n" +
+      "(1) Para astronom menemukan galaksi yang mirip dengan Bima Sakti yang kita tinggali. (2) Galaksi tersebut berjarak 12 miliar tahun cahaya dan diperkirakan terbentuk ketika alam semesta masih sangat muda, berusia sekitar 1,4 miliar. (3) Ditemukannya galaksi ini menawarkan cara untuk melihat kembali bentuk galaksi di awal kehidupan alam semesta, ketika usianya baru 10% dari sekarang. (4) Dilansir dari The Independent, para ilmuwan terkejut karena galaksi tersebut jauh lebih mirip dari yang diharapkan. (5) Galaksi-galaksi dari masa awal pembentukan semesta diperkirakan sangat bergejolak dan tidak stabil. (6) Namun, yang baru ditemukan kali ini tidak sekacau seperti yang dijelaskan dalam teori.\n\n" +
+      "Makna kata galaksi pada teks di atas ialah…",
+    options: ["Planet", "Tata surya dan kabut-kabut", "Karakteristik alam", "Bima Sakti", "Alam semesta"],
+    correct: "Tata surya dan kabut-kabut"
+  }
 ];
 
 const quizContainer = document.querySelector(".quiz-container");
