@@ -1,9 +1,9 @@
 let quizData = [
-   {
+  {
     question: "(1) Jalan-jalan utama di dalam Kelurahan Tajur harus diperbaiki dengan segera. (2) Perbaikan tersebut berhubungan dengan peningkatan mutu jalan. (3) Peningkatan mutu jalan tersebut dengan lapisan aspal beton setebal 4 cm dapat menaikkan ketahanannya hingga 5 s.d. 10 tahun. (4) Apalagi, Perumahan Bumi Serpong Damai terus dibangun. (5) Pertimbangan untuk langkah itu ialah mengingat akan sifatnya sebagai jalan ekonomi. (6) Juga menghindari kerusakan setiap tahun sebagai akibat frekwensi maupun bobot kendaraan yang melewatinya yang makin meningkat. (7) Hal ini dilakukan karena old contruction tidak sesuai lagi dengan beban yang ada sekarang. (8) Kehadiran jalan yang bermutu tinggi sangat memberikan manfaat bagi masyarakat luas.(9) Masyarakat menengah yang hidup di Kelurahan Tajur itu lebih banyak menggunakan Sepeda untuk berpergian ke pasar atau ke kota. (10) Tentu saja jalan tersebut berguna sekali bagi mereka. <b>Teks di atas termasuk ke dalam jenis paragraf?</b>",
     options: ["Ineratif karena kalimat topik berada di tengah paragraf", "Campuran karena kalimat topik terletak di awal dan akhir paragraf", "Induktif karena kalimat topik terletak di akhir paragraph", "Deduktif karena kalimat topik terletak di awal paragraph"],
     correct: "Deduktif karena kalimat topik terletak di awal paragraph",
-  };
+  },
   {
     question: "(1) Indonesia memiliki keanekaragaman budaya yang sangat kaya. (2) Keanekaragaman ini terlihat dari berbagai suku, bahasa, dan adat istiadat yang ada. (3) Namun, dalam beberapa kasus, perbedaan ini dapat menimbulkan konflik. (4) Oleh karena itu, sikap toleransi sangat diperlukan untuk menjaga persatuan dan kesatuan. (5) Dengan adanya toleransi, keberagaman dapat menjadi kekuatan bagi bangsa. <b>Gagasan utama paragraf di atas adalah?</b>",
     options: ["Keanekaragaman budaya Indonesia sangat kaya.", "Keanekaragaman budaya dapat menimbulkan konflik.", "Toleransi diperlukan untuk menjaga persatuan dan kesatuan.", "Keberagaman menjadi kekuatan bagi bangsa."],
@@ -12,7 +12,7 @@ let quizData = [
   {
     question: "(1) Membaca adalah keterampilan dasar yang sangat penting. (2) Dengan membaca, seseorang dapat memperluas wawasan dan meningkatkan pemahaman. (3) Sayangnya, minat baca di Indonesia masih tergolong rendah. (4) Salah satu penyebabnya adalah kurangnya akses terhadap bahan bacaan yang berkualitas. (5) Oleh karena itu, perlu adanya upaya meningkatkan budaya membaca di masyarakat. <b>Kalimat yang berisi pernyataan umum dalam paragraf di atas adalah?</b>",
     options: ["Membaca adalah keterampilan dasar yang sangat penting.", "Dengan membaca, seseorang dapat memperluas wawasan dan meningkatkan pemahaman.", "Sayangnya, minat baca di Indonesia masih tergolong rendah.", "Oleh karena itu, perlu adanya upaya meningkatkan budaya membaca di masyarakat."],
-    "correct"": "Membaca adalah keterampilan dasar yang sangat penting.",
+    "correct": "Membaca adalah keterampilan dasar yang sangat penting.",
   },
   {
     question: "(1) Teknologi telah berkembang dengan pesat dalam beberapa dekade terakhir. (2) Kemajuan teknologi ini mempermudah komunikasi dan akses informasi. (3) Namun, ketergantungan pada teknologi juga menimbulkan tantangan baru. (4) Salah satu dampaknya adalah berkurangnya interaksi sosial secara langsung. (5) Oleh karena itu, perlu adanya keseimbangan dalam penggunaan teknologi. <b>Gagasan utama paragraf di atas adalah?</b>",
@@ -32,7 +32,7 @@ let quizData = [
   {
     question: "(1) Pendidikan merupakan faktor penting dalam kemajuan suatu bangsa. (2) Dengan pendidikan yang baik, masyarakat dapat meningkatkan kualitas hidupnya. (3) Pendidikan juga berperan dalam menciptakan tenaga kerja yang kompeten. (4) Oleh karena itu, pemerintah harus berupaya meningkatkan kualitas pendidikan di negara ini. (5) Dengan pendidikan yang berkualitas, kemajuan bangsa dapat tercapai. <b>Kalimat yang mengandung pendapat dalam paragraf di atas adalah?</b>",
     options: ["Pendidikan merupakan faktor penting dalam kemajuan suatu bangsa.", "Dengan pendidikan yang baik, masyarakat dapat meningkatkan kualitas hidupnya.", "Pendidikan juga berperan dalam menciptakan tenaga kerja yang kompeten.", "Pemerintah harus berupaya meningkatkan kualitas pendidikan di negara ini."],
-    "correct": "Pemerintah harus berupaya meningkatkan kualitas pendidikan di negara ini.",
+    correct: "Pemerintah harus berupaya meningkatkan kualitas pendidikan di negara ini.",
   },
   {
     question: "(1) Sampah plastik menjadi masalah lingkungan yang serius. (2) Plastik sulit terurai dan dapat mencemari tanah serta perairan. (3) Penggunaan plastik sekali pakai semakin meningkat di masyarakat. (4) Oleh karena itu, perlu adanya kebijakan untuk mengurangi penggunaan plastik. (5) Masyarakat juga harus didorong untuk beralih ke bahan yang ramah lingkungan. <b>Solusi utama dari permasalahan dalam paragraf di atas adalah?</b>",
