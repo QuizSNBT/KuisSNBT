@@ -209,7 +209,7 @@ const startBtn = document.querySelector(".start-btn-container .start-btn");
 
 let questionNumber = 0;
 let score = 0;
-const MAX_QUESTIONS = 40; // ✅ Diperbaiki dari error sebelumnya
+const MAX_QUESTIONS = 5;
 let timerInterval;
 
 const shuffleArray = (array) => {
@@ -219,7 +219,7 @@ const shuffleArray = (array) => {
 quizData = shuffleArray(quizData);
 
 const resetLocalStorage = () => {
-  for (let i = 0; i < MAX_QUESTIONS; i++) {
+  for (i = 0; i < MAX_QUESTIONS; i++) {
     localStorage.removeItem(`userAnswer_${i}`);
   }
 };
@@ -227,7 +227,7 @@ const resetLocalStorage = () => {
 resetLocalStorage();
 
 const checkAnswer = (e) => {
-  let userAnswer = e.target.innerHTML; // ✅ Gunakan innerHTML agar cocok dengan teks di HTML
+  let userAnswer = e.target.textContent;
   if (userAnswer === quizData[questionNumber].correct) {
     score++;
     e.target.classList.add("correct");
@@ -246,11 +246,11 @@ const checkAnswer = (e) => {
 const createQuestion = () => {
   clearInterval(timerInterval);
 
-  let secondsLeft = 59;
+  let secondsLeft = 9;
   const timerDisplay = document.querySelector(".quiz-container .timer");
   timerDisplay.classList.remove("danger");
 
-  timerDisplay.textContent = `Time Left: 60 seconds`;
+  timerDisplay.textContent = `Time Left: 10 seconds`;
 
   timerInterval = setInterval(() => {
     timerDisplay.textContent = `Time Left: ${secondsLeft
@@ -351,11 +351,4 @@ startBtn.addEventListener("click", () => {
   startBtnContainer.style.display = "none";
   quizContainer.style.display = "block";
   createQuestion();
-});
-document.getElementById("start-btn").addEventListener("click", () => {
-    document.querySelector(".start-btn-container").style.display = "none";
-    document.querySelector(".quiz-container").style.display = "block";
-
-    // Sembunyikan tombol donasi
-    document.getElementById("donation-btn").style.display = "none";
 });
