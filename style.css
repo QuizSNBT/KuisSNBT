@@ -35,8 +35,15 @@
   border: none;
   padding: 24px 32px;
   font-size: 18px;
-  background: #1d3557;
+  background: #0a192f; /* Biru tua gelap */
   color: #fff;
+  border-radius: 8px; /* Sudut tumpul */
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.quiz-container .option:hover {
+  background: #112240; /* Biru lebih terang saat hover */
 }
 
 .quiz-container button {
@@ -134,4 +141,4 @@
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
-}
+    }
