@@ -1,7 +1,7 @@
 let quizData = [];
 let usedQuestions = JSON.parse(localStorage.getItem("usedQuestions")) || []; // Simpan soal yang sudah digunakan
 
-fetch("https://raw.githubusercontent.com/QuizSNBT/KuisSNBT/refs/heads/main/quizdata.json")
+fetch("https://raw.githubusercontent.com/QuizSNBT/KuisSNBT/main/quizdata.json")
   .then(response => response.json())
   .then(data => {
     quizData = data.filter(q => !usedQuestions.includes(q.question)); // Ambil soal yang belum digunakan
