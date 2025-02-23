@@ -1,6 +1,6 @@
 let quizData = [];
 
-fetch("https://raw.githubusercontent.com/username/soal-kuis/main/quizData.json")
+fetch("https://raw.githubusercontent.com/quizsnbt/soal-kuis/main/quizData.json")
   .then(response => response.json())
   .then(data => {
     quizData = data;
