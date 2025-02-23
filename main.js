@@ -1,83 +1,97 @@
 let quizData = [
   {
-    question: "What is the capital of Japan?",
-    options: ["Tokyo", "Beijing", "Seoul", "Bangkok"],
-    correct: "Tokyo",
-  },
-  {
-    question: "Which planet is known as the 'Red Planet'?",
-    options: ["Mars", "Venus", "Jupiter", "Mercury"],
-    correct: "Mars",
-  },
-  {
-    question:
-      "Which famous scientist developed the theory of general relativity?",
+    question: "Gagasan utama paragraf pertama adalah ….",
     options: [
-      "Isaac Newton",
-      "Albert Einstein",
-      "Stephen Hawking",
-      "Galileo Galilei",
+      "Kerusakan alam dan lingkungan hidup akibat ulah manusia",
+      "Terancamnya eksistensi planet bumi akibat krisis lingkungan",
+      "Adanya banjir tahunan akibat kerusakan lingkungan hidup",
+      "Adanya krisis lingkungan dalam skala nasional dan global"
     ],
-    correct: "Albert Einstein",
+    correct: "Kerusakan alam dan lingkungan hidup akibat ulah manusia",
+    explanation: "Gagasan utama paragraf tersebut ada pada kalimat pertama, yaitu 'kerusakan alam dan lingkungan hidup sebagai akibat ulah manusia'."
   },
   {
-    question: "What is the largest mammal on Earth?",
-    options: ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
-    correct: "Blue Whale",
+    question: "Penggunaan diksi yang tidak tepat terdapat pada kalimat ….",
+    options: ["(1)", "(3)", "(4)", "(6)"],
+    correct: "(3)",
+    explanation: "Kata 'degradasi lahan' seharusnya diganti dengan 'degradasi lingkungan' karena lebih sesuai dalam konteks perusakan alam."
   },
   {
-    question: "Which famous artist painted the Mona Lisa?",
+    question: "Kesalahan penggunaan tanda baca terdapat pada kalimat ….",
+    options: ["(11)", "(12)", "(13)", "(14)"],
+    correct: "(14)",
+    explanation: "Seharusnya ada koma setelah kata 'Padahal' dalam kalimat (14), yaitu: 'Padahal, lahan dengan sumber dayanya berfungsi sebagai penyangga kehidupan…'"
+  },
+  {
+    question: "Apakah penyebab utama terjadinya kerusakan lingkungan?",
     options: [
-      "Vincent van Gogh",
-      "Pablo Picasso",
-      "Leonardo da Vinci",
-      "Michelangelo",
+      "Manusia memandang alam sebagai bagian dari kehidupannya.",
+      "Adanya kesalahan cara pandang manusia terhadap alam.",
+      "Cara pandang seseorang memengaruhi perilakunya.",
+      "Cara pandang manusia terhadap alam berbeda-beda."
     ],
-    correct: "Leonardo da Vinci",
+    correct: "Adanya kesalahan cara pandang manusia terhadap alam.",
+    explanation: "Dijelaskan dalam teks bahwa kesalahan cara pandang manusia tentang lingkungan berkontribusi besar terhadap kerusakan lingkungan."
   },
   {
-    question: "Which playwright wrote the tragedy 'Romeo and Juliet'?",
-    options: [
-      "William Shakespeare",
-      "George Bernard Shaw",
-      "Oscar Wilde",
-      "Charles Dickens",
-    ],
-    correct: "William Shakespeare",
+    question: "Kalimat yang tidak efektif adalah kalimat ….",
+    options: ["(1) dan (3)", "(2) dan (5)", "(6) dan (8)", "(5) dan (8)"],
+    correct: "(5) dan (8)",
+    explanation: "Kalimat (5) dan (8) tidak efektif karena tidak memiliki kesejajaran struktur dan redundansi kata."
   },
   {
-    question: "Who is known as the father of modern physics?",
+    question: "Apa simpulan isi teks tersebut?",
     options: [
-      "Isaac Newton",
-      "Albert Einstein",
-      "Galileo Galilei",
-      "Niels Bohr",
+      "Kerusakan lingkungan selalu disebabkan oleh ulah manusia.",
+      "Kerusakan alam dan lingkungan terjadi dalam lingkungan nasional dan global.",
+      "Ada banyak faktor penyebab terjadinya kerusakan alam dan lingkungan.",
+      "Krisis lingkungan sudah sampai mengancam eksistensi planet bumi."
     ],
-    correct: "Albert Einstein",
+    correct: "Kerusakan lingkungan selalu disebabkan oleh ulah manusia.",
+    explanation: "Simpulan teks menunjukkan bahwa manusia menjadi faktor utama dalam kerusakan lingkungan."
   },
   {
-    question:
-      "Which ancient wonder of the world was a massive statue of the Greek god Zeus?",
+    question: "Apa judul yang tepat untuk teks tentang kebiasaan membaca sejak dini?",
     options: [
-      "Great Pyramid of Giza",
-      "Hanging Gardens of Babylon",
-      "Statue of Zeus at Olympia",
-      "Colossus of Rhodes",
+      "Pengenalan Kebiasaan Membaca sejak Dini",
+      "Balita dan Kebiasaan Mendengarkan Cerita",
+      "Pembiasaan Anak dalam Mendengarkan Cerita",
+      "Peningkatan Kinerja Otak melalui Membaca"
     ],
-    correct: "Statue of Zeus at Olympia",
+    correct: "Pengenalan Kebiasaan Membaca sejak Dini",
+    explanation: "Judul yang paling menggambarkan isi teks adalah 'Pengenalan Kebiasaan Membaca sejak Dini'."
   },
   {
-    question: "Who wrote the novel 'Pride and Prejudice'?",
-    options: [
-      "Emily Brontë",
-      "Charlotte Brontë",
-      "Jane Austen",
-      "Louisa May Alcott",
-    ],
-    correct: "Jane Austen",
+    question: "Kalimat yang TIDAK efektif dalam teks kebiasaan membaca adalah?",
+    options: ["(1) dan (7)", "(2) dan (8)", "(3) dan (9)", "(4) dan (10)"],
+    correct: "(4) dan (10)",
+    explanation: "Kalimat (4) dan (10) tidak efektif karena struktur dan ejaan yang kurang tepat."
   },
+  {
+    question: "Bagaimana hubungan isi antarparagraf dalam teks membaca?",
+    options: [
+      "Paragraf ke-2 memaparkan simpulan penelitian yang dibahas pada paragraf ke-1.",
+      "Paragraf ke-2 memerinci temuan penelitian yang dipaparkan pada paragraf ke-1.",
+      "Paragraf ke-2 memaparkan perbedaan perilaku yang dibahas pada paragraf ke-1.",
+      "Paragraf ke-1 memaparkan penelitian terhadap balita yang diuraikan pada paragraf ke-2."
+    ],
+    correct: "Paragraf ke-2 memerinci temuan penelitian yang dipaparkan pada paragraf ke-1.",
+    explanation: "Paragraf kedua memberikan rincian lebih lanjut dari penelitian yang disebutkan di paragraf pertama."
+  },
+  {
+    question: "Apa simpulan dari teks tentang kebiasaan membaca?",
+    options: [
+      "Anak-anak yang belajar membaca pada usia 3 – 5 tahun akan mempercepat perkembangan otaknya.",
+      "Semakin awal kebiasaan membaca buku diperkenalkan, semakin aktif otak anak bekerja.",
+      "Anak-anak yang mulai belajar membaca sejak balita akan menjadi anak-anak yang otak kirinya lebih aktif.",
+      "Kebiasaan mendengarkan cerita dan membaca sejak usia balita berdampak positif untuk perkembangan otak."
+    ],
+    correct: "Kebiasaan mendengarkan cerita dan membaca sejak usia balita berdampak positif untuk perkembangan otak.",
+    explanation: "Simpulan utama dari teks adalah dampak positif kebiasaan membaca terhadap perkembangan otak anak."
+  }
 ];
 
+// Fungsi untuk menampilkan soal
 const quizContainer = document.querySelector(".quiz-container");
 const question = document.querySelector(".quiz-container .question");
 const options = document.querySelector(".quiz-container .options");
@@ -88,7 +102,7 @@ const startBtn = document.querySelector(".start-btn-container .start-btn");
 
 let questionNumber = 0;
 let score = 0;
-const MAX_QUESTIONS = 5;
+const MAX_QUESTIONS = 10;
 let timerInterval;
 
 const shuffleArray = (array) => {
@@ -97,49 +111,17 @@ const shuffleArray = (array) => {
 
 quizData = shuffleArray(quizData);
 
-const resetLocalStorage = () => {
-  for (i = 0; i < MAX_QUESTIONS; i++) {
-    localStorage.removeItem(`userAnswer_${i}`);
-  }
-};
-
-resetLocalStorage();
-
-const checkAnswer = (e) => {
-  let userAnswer = e.target.textContent;
-  if (userAnswer === quizData[questionNumber].correct) {
-    score++;
-    e.target.classList.add("correct");
-  } else {
-    e.target.classList.add("incorrect");
-  }
-
-  localStorage.setItem(`userAnswer_${questionNumber}`, userAnswer);
-
-  let allOptions = document.querySelectorAll(".quiz-container .option");
-  allOptions.forEach((o) => {
-    o.classList.add("disabled");
-  });
-};
-
 const createQuestion = () => {
   clearInterval(timerInterval);
 
-  let secondsLeft = 9;
+  let secondsLeft = 10;
   const timerDisplay = document.querySelector(".quiz-container .timer");
-  timerDisplay.classList.remove("danger");
 
-  timerDisplay.textContent = `Time Left: 10 seconds`;
+  timerDisplay.textContent = `Time Left: ${secondsLeft} seconds`;
 
   timerInterval = setInterval(() => {
-    timerDisplay.textContent = `Time Left: ${secondsLeft
-      .toString()
-      .padStart(2, "0")} seconds`;
+    timerDisplay.textContent = `Time Left: ${secondsLeft} seconds`;
     secondsLeft--;
-
-    if (secondsLeft < 3) {
-      timerDisplay.classList.add("danger");
-    }
 
     if (secondsLeft < 0) {
       clearInterval(timerInterval);
@@ -148,9 +130,7 @@ const createQuestion = () => {
   }, 1000);
 
   options.innerHTML = "";
-  question.innerHTML = `<span class='question-number'>${
-    questionNumber + 1
-  }/${MAX_QUESTIONS}</span>${quizData[questionNumber].question}`;
+  question.innerHTML = `${quizData[questionNumber].question}`;
 
   const shuffledOptions = shuffleArray(quizData[questionNumber].options);
 
@@ -165,66 +145,25 @@ const createQuestion = () => {
   });
 };
 
-const retakeQuiz = () => {
-  questionNumber = 0;
-  score = 0;
-  quizData = shuffleArray(quizData);
-  resetLocalStorage();
+const checkAnswer = (e) => {
+  let userAnswer = e.target.textContent;
+  e.target.classList.add(userAnswer === quizData[questionNumber].correct ? "correct" : "incorrect");
 
-  createQuestion();
-  quizResult.style.display = "none";
-  quizContainer.style.display = "block";
+  const explanation = document.createElement("p");
+  explanation.textContent = `Pembahasan: ${quizData[questionNumber].explanation}`;
+  options.appendChild(explanation);
+
+  let allOptions = document.querySelectorAll(".quiz-container .option");
+  allOptions.forEach((o) => o.classList.add("disabled"));
 };
 
-const displayQuizResult = () => {
-  quizResult.style.display = "flex";
-  quizContainer.style.display = "none";
-  quizResult.innerHTML = "";
-
-  const resultHeading = document.createElement("h2");
-  resultHeading.innerHTML = `You have scored ${score} out of ${MAX_QUESTIONS}.`;
-  quizResult.appendChild(resultHeading);
-
-  for (let i = 0; i < MAX_QUESTIONS; i++) {
-    const resultItem = document.createElement("div");
-    resultItem.classList.add("question-container");
-
-    const userAnswer = localStorage.getItem(`userAnswer_${i}`);
-    const correctAnswer = quizData[i].correct;
-
-    let answeredCorrectly = userAnswer === correctAnswer;
-
-    if (!answeredCorrectly) {
-      resultItem.classList.add("incorrect");
-    }
-
-    resultItem.innerHTML = `<div class="question">Question ${i + 1}: ${
-      quizData[i].question
-    }</div>
-    <div class="user-answer">Your answer: ${userAnswer || "Not Answered"}</div>
-    <div class="correct-answer">Correct answer: ${correctAnswer}</div>`;
-
-    quizResult.appendChild(resultItem);
-  }
-
-  const retakeBtn = document.createElement("button");
-  retakeBtn.classList.add("retake-btn");
-  retakeBtn.innerHTML = "Retake Quiz";
-  retakeBtn.addEventListener("click", retakeQuiz);
-  quizResult.appendChild(retakeBtn);
-};
-
-const displayNextQuestion = () => {
+nextBtn.addEventListener("click", () => {
   if (questionNumber >= MAX_QUESTIONS - 1) {
-    displayQuizResult();
     return;
   }
-
   questionNumber++;
   createQuestion();
-};
-
-nextBtn.addEventListener("click", displayNextQuestion);
+});
 
 startBtn.addEventListener("click", () => {
   startBtnContainer.style.display = "none";
