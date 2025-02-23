@@ -1,61 +1,87 @@
+let quizData = [];
+const MAX_QUESTIONS = 10; // Ambil 10 soal setiap sesi
+let currentQuestions = [];
 let questionNumber = 0;
 let score = 0;
-const MAX_QUESTIONS = 1; // Set ke jumlah soal yang diambil tiap sesi
 let timerInterval;
-let quizData = [];
 
-// **Subtes A (30 Soal)**
-const subtesA = [
-  {
-    question: "Apa ibu kota Indonesia?",
-    options: ["Jakarta", "Surabaya", "Medan", "Makassar"],
-    correct: "Jakarta"
-  },
-  // Tambahkan 29 soal lagi di sini...
-];
+// **🔹 Ambil Soal dari GitHub JSON**
+fetch("https://raw.githubusercontent.com/QuizSNBT/KuisSNBT/main/quizdata.json")
+  .then(response => response.json())
+  .then(data => {
+    quizData = data;
+    startQuiz(); // **Mulai kuis setelah soal berhasil dimuat**
+  })
+  .catch(error => console.error("Gagal mengambil data:", error));
 
-// **Subtes B (1 Soal sebagai contoh)**
-const subtesB = [
+// **🔹 Acak Array**
+const shuffleArray = (array) => array.sort(() => Math.random() - 0.5);
 
-];
+// **🔹 Mulai Kuis**
+function startQuiz() {
+  console.log("Soal berhasil dimuat:", quizData);
 
-// **Fungsi Memulai Kuis berdasarkan subtes**
-const startQuiz = (subtest) => {
-  if (subtest === "A") {
-    quizData = [...subtesA]; // Load soal subtes A
-  } else {
-    quizData = [...subtesB]; // Load soal subtes B
+  if (quizData.length < MAX_QUESTIONS) {
+    console.error("Jumlah soal di JSON kurang dari 10!");
+    return;
   }
 
+  currentQuestions = shuffleArray([...quizData]).slice(0, MAX_QUESTIONS);
   questionNumber = 0;
   score = 0;
-  quizData = shuffleArray(quizData).slice(0, MAX_QUESTIONS); // Ambil 10 soal acak
   resetLocalStorage();
-
-  document.querySelector(".start-btn-container").style.display = "none";
-  document.querySelector(".quiz-container").style.display = "block";
-
   createQuestion();
-};
+}
 
-// **Fungsi lainnya (Tidak berubah dari sebelumnya)**
-
-// Acak array soal
-const shuffleArray = (array) => {
-  return array.sort(() => Math.random() - 0.5);
-};
-
-// Hapus jawaban sebelumnya di localStorage
+// **🔹 Reset Local Storage (Simpan Jawaban)**
 const resetLocalStorage = () => {
   for (let i = 0; i < MAX_QUESTIONS; i++) {
     localStorage.removeItem(`userAnswer_${i}`);
   }
 };
 
-// Cek jawaban
-const checkAnswer = (e) => {
-  let userAnswer = e.target.innerHTML;
-  if (userAnswer === quizData[questionNumber].correct) {
+// **🔹 Tampilkan Soal**
+const createQuestion = () => {
+  clearInterval(timerInterval);
+
+  if (questionNumber >= MAX_QUESTIONS) {
+    displayQuizResult();
+    return;
+  }
+
+  let secondsLeft = 59;
+  const timerDisplay = document.querySelector(".quiz-container .timer");
+  timerDisplay.classList.remove("danger");
+  timerDisplay.textContent = `Time Left: 60 seconds`;
+
+  timerInterval = setInterval(() => {
+    timerDisplay.textContent = `Time Left: ${secondsLeft.toString().padStart(2, "0")} seconds`;
+    secondsLeft--;
+    if (secondsLeft < 3) timerDisplay.classList.add("danger");
+    if (secondsLeft < 0) {
+      clearInterval(timerInterval);
+      displayNextQuestion();
+    }
+  }, 1000);
+
+  const questionEl = document.querySelector(".quiz-container .question");
+  const optionsEl = document.querySelector(".quiz-container .options");
+  
+  questionEl.innerHTML = `<span class='question-number'>${questionNumber + 1}/${MAX_QUESTIONS}</span>${currentQuestions[questionNumber].question}`;
+  optionsEl.innerHTML = "";
+
+  shuffleArray(currentQuestions[questionNumber].options).forEach(optionText => {
+    const optionBtn = document.createElement("button");
+    optionBtn.classList.add("option");
+    optionBtn.innerHTML = optionText;
+    optionBtn.addEventListener("click", (e) => checkAnswer(e, optionText));
+    optionsEl.appendChild(optionBtn);
+  });
+};
+
+// **🔹 Cek Jawaban**
+const checkAnswer = (e, userAnswer) => {
+  if (userAnswer === currentQuestions[questionNumber].correct) {
     score++;
     e.target.classList.add("correct");
   } else {
@@ -63,43 +89,66 @@ const checkAnswer = (e) => {
   }
 
   localStorage.setItem(`userAnswer_${questionNumber}`, userAnswer);
-
-  let allOptions = document.querySelectorAll(".quiz-container .option");
-  allOptions.forEach((o) => o.classList.add("disabled"));
+  document.querySelectorAll(".quiz-container .option").forEach(o => o.classList.add("disabled"));
 };
 
-// Menampilkan soal
-const createQuestion = () => {
-  clearInterval(timerInterval);
+// **🔹 Tampilkan Hasil**
+const displayQuizResult = () => {
+  document.querySelector(".quiz-container").style.display = "none";
+  document.querySelector("#popup-score").style.display = "flex";
 
-  if (questionNumber >= quizData.length) {
-    displayQuizResult();
-    return;
-  }
+  const scoreText = document.getElementById("score-text");
+  scoreText.innerHTML = `Kamu menjawab benar ${score} dari ${MAX_QUESTIONS} soal.`;
 
-  let question = document.querySelector(".quiz-container .question");
-  let options = document.querySelector(".quiz-container .options");
-  options.innerHTML = "";
-  question.innerHTML = `${questionNumber + 1}. ${quizData[questionNumber].question}`;
-
-  quizData[questionNumber].options.forEach((o) => {
-    const option = document.createElement("button");
-    option.classList.add("option");
-    option.innerHTML = o;
-    option.addEventListener("click", (e) => checkAnswer(e));
-    options.appendChild(option);
+  document.getElementById("popup-ok").addEventListener("click", () => {
+    document.querySelector("#popup-score").style.display = "none";
+    showAnswerReview();
   });
 };
 
-// Menampilkan hasil
-const displayQuizResult = () => {
-  document.querySelector(".quiz-container").style.display = "none";
-  document.querySelector(".quiz-result").style.display = "block";
-  document.querySelector(".quiz-result").innerHTML = `Kamu menjawab benar ${score} dari ${quizData.length} soal.`;
+// **🔹 Tampilkan Pembahasan Jawaban**
+const showAnswerReview = () => {
+  const quizResult = document.querySelector(".quiz-result");
+  quizResult.innerHTML = "";
+  quizResult.style.display = "flex";
+
+  const resultHeading = document.createElement("h2");
+  resultHeading.innerHTML = `Pembahasan Jawaban`;
+  quizResult.appendChild(resultHeading);
+
+  currentQuestions.forEach((question, i) => {
+    const userAnswer = localStorage.getItem(`userAnswer_${i}`) || "Tidak Dijawab";
+    const resultItem = document.createElement("div");
+    resultItem.classList.add("question-container");
+
+    if (userAnswer !== question.correct) resultItem.classList.add("incorrect");
+
+    resultItem.innerHTML = `
+      <div class="question">Soal ${i + 1}: ${question.question}</div>
+      <div class="user-answer">Jawaban Kamu: ${userAnswer}</div>
+      <div class="correct-answer">Jawaban Benar: ${question.correct}</div>
+    `;
+
+    quizResult.appendChild(resultItem);
+  });
+
+  // Tombol ulangi kuis
+  const retakeBtn = document.createElement("button");
+  retakeBtn.classList.add("retake-btn");
+  retakeBtn.innerHTML = "Ulangi Kuis";
+  retakeBtn.addEventListener("click", startQuiz);
+  quizResult.appendChild(retakeBtn);
 };
 
-// Pindah ke soal berikutnya
-document.querySelector(".quiz-container .next-btn").addEventListener("click", () => {
+// **🔹 Event Listener Tombol Start**
+document.querySelector(".start-btn").addEventListener("click", () => {
+  document.querySelector(".start-btn-container").style.display = "none";
+  document.querySelector(".quiz-container").style.display = "block";
+  document.querySelector(".donation-btn").style.display = "none"; // Sembunyikan tombol donasi
+});
+
+// **🔹 Event Listener Tombol Next**
+document.querySelector(".next-btn").addEventListener("click", () => {
   questionNumber++;
   createQuestion();
 });
