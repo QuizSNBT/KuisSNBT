@@ -5,6 +5,22 @@
   padding: 16px;
   display: none;
 }
+.donation-btn {
+  position: fixed;
+  bottom: 20px; /* Jarak dari bawah */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffff; /* Warna hijau */
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  
+  text-align: center;
+  font-family: Poppins;
+}
 
 .quiz-container .timer {
   font-weight: bold;
