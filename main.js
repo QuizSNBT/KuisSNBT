@@ -32,7 +32,7 @@ let quizData = [
   {
     question: "(1) Pendidikan merupakan faktor penting dalam kemajuan suatu bangsa. (2) Dengan pendidikan yang baik, masyarakat dapat meningkatkan kualitas hidupnya. (3) Pendidikan juga berperan dalam menciptakan tenaga kerja yang kompeten. (4) Oleh karena itu, pemerintah harus berupaya meningkatkan kualitas pendidikan di negara ini. (5) Dengan pendidikan yang berkualitas, kemajuan bangsa dapat tercapai. <b>Kalimat yang mengandung pendapat dalam paragraf di atas adalah?</b>",
     options: ["Pendidikan merupakan faktor penting dalam kemajuan suatu bangsa.", "Dengan pendidikan yang baik, masyarakat dapat meningkatkan kualitas hidupnya.", "Pendidikan juga berperan dalam menciptakan tenaga kerja yang kompeten.", "Pemerintah harus berupaya meningkatkan kualitas pendidikan di negara ini."],
-    "correct": "Pemerintah harus berupaya meningkatkan kualitas pendidikan di negara ini.",
+    correct: "Pemerintah harus berupaya meningkatkan kualitas pendidikan di negara ini.",
   },
   {
     question: "(1) Sampah plastik menjadi masalah lingkungan yang serius. (2) Plastik sulit terurai dan dapat mencemari tanah serta perairan. (3) Penggunaan plastik sekali pakai semakin meningkat di masyarakat. (4) Oleh karena itu, perlu adanya kebijakan untuk mengurangi penggunaan plastik. (5) Masyarakat juga harus didorong untuk beralih ke bahan yang ramah lingkungan. <b>Solusi utama dari permasalahan dalam paragraf di atas adalah?</b>",
