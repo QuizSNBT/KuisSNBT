@@ -209,7 +209,7 @@ const startBtn = document.querySelector(".start-btn-container .start-btn");
 
 let questionNumber = 0;
 let score = 0;
-const MAX_QUESTIONS = 5;
+const MAX_QUESTIONS = 37;
 let timerInterval;
 
 const shuffleArray = (array) => {
