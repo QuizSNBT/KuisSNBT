@@ -304,3 +304,10 @@ startBtn.addEventListener("click", () => {
   quizContainer.style.display = "block";
   createQuestion();
 });
+document.getElementById("start-btn").addEventListener("click", () => {
+    document.querySelector(".start-btn-container").style.display = "none";
+    document.querySelector(".quiz-container").style.display = "block";
+
+    // Sembunyikan tombol donasi
+    document.getElementById("donation-btn").style.display = "none";
+});
