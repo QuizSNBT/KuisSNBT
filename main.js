@@ -135,7 +135,7 @@ const quizData = {
     },
     {
       question: "Jika A > B dan C < B, maka...",
-      options: ["A > C", "A < C", "A = C", "Tidak dapat ditentukan"],
+      options: ["A > C", "A ≠ C", "A = C", "Tidak dapat ditentukan"],
       correct: "A > C",
     },
     {
