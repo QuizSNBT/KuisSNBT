@@ -134,9 +134,9 @@ const quizData = {
       correct: "Tidak ada kesimpulan yang pasti",
     },
     {
-      question: "Jika A > B dan C < B, maka...",
-      options: ["A > C", "A ≠ C", "A = C", "Tidak dapat ditentukan"],
-      correct: "A > C",
+      question: "Jika Fizi botak, maka Ipin punya rambut, Fizi tidak botak",
+      options: ["Ipin punya rambut", "Ipin tidak botak", "Fizi akan botak", "Tidak dapat ditentukan"],
+      correct: "Tidak dapat ditentukan",
     },
     {
       question: "Sebuah toko memberikan diskon 20% untuk semua barang. Jika harga sebuah baju sebelum diskon adalah Rp150.000, berapa harga baju setelah diskon?",
