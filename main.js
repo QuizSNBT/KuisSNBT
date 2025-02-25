@@ -166,17 +166,28 @@ const quizData = {
     {
       question: "Jika hari ini adalah hari Senin, maka 10 hari lagi adalah hari...",
       options: ["Selasa", "Rabu", "Kamis", "Jumat"],
-      correct: "Rabu",
+      correct: "Kamis",
     },
     {
-      question: "Modus Ponens: Jika P maka Q. P benar. Maka...",
-      options: ["Q benar", "Q salah", "P salah", "Tidak dapat ditentukan"],
-      correct: "Q benar",
+      question: "Universitas Alfa mengharuskan setiap anggota tim peneliti untuk mengikuti Seminar Penulisan Publikasi Ilmiah. Namun, pihak penyelenggara menetapkan bahwa hanya mahasiswa S2 yang boleh mendaftar seminar tersebut. Sinta adalah anggota baru tim peneliti di Universitas Alfa dan saat ini terdaftar sebagai mahasiswa S2. Meskipun sudah memenuhi syarat dari segi status, Sinta masih menunggu persetujuan akhir dari panitia seminar sebelum resmi menjadi peserta.
+
+. Berdasarkan informasi di atas, manakah pernyataan yang pasti benar?
+
+",
+      options: ["Sinta pasti akan ditolak mengikuti seminar karena persetujuan akhirnya belum diterima.", "Sinta tidak memenuhi kriteria seminar, sebab sebagian anggota tim peneliti bukan mahasiswa S2.
+", "Sinta memenuhi persyaratan untuk mengikuti seminar karena ia anggota tim peneliti sekaligus mahasiswa S2.", "Tidak dapat ditentukan"],
+      correct: "Sinta memenuhi persyaratan untuk mengikuti seminar karena ia anggota tim peneliti sekaligus mahasiswa S2.
+
+",
     },
     {
-      question: "Modus Tollens: Jika P maka Q. Q salah. Maka...",
-      options: ["P benar", "P salah", "Q benar", "Tidak dapat ditentukan"],
-      correct: "P salah",
+      question: "Jika seseorang berolahraga secara teratur, maka risiko obesitasnya menurun. Jika risiko obesitas menurun, maka kemungkinan ia terhindar dari diabetes tipe 2 meningkat. Sejak usia muda, Siti selalu berolahraga setiap pagi.
+Berdasarkan informasi tersebut, manakah simpulan yang benar?",
+      options: ["Siti pasti mengalami obesitas", "Siti menurunkan risiko obesitas, tetapi tetap berpeluang diabetes tipe 1 tanpa sebab.", "Siti cenderung terhindar dari diabetes tipe 2.
+", "Tidak dapat ditentukan"],
+      correct: "Siti cenderung terhindar dari diabetes tipe 2.
+
+",
     },
     {
       question: "Jika semua burung bisa terbang dan penguin adalah burung, maka...",
