@@ -246,23 +246,23 @@ const quizData = {
       "Orang yang memiliki gangguan pernapasan dapat disembuhkan dengan tidur tengkurap.",
       "Nyeri punggung dan leher dialami oleh orang yang mendengkur.",
       "Dengkuran sebagian orang yang tidur tengkurap berkurang."],
-    correct: "Dengkuran sebagian orang yang tidur tengkurap berkurang.",
+      correct: "Dengkuran sebagian orang yang tidur tengkurap berkurang.",
   },
   {
-    question: "Apabila sudah siap panen, jeruk akan terasa empuk jika ditekan; kulitnya berwarna kuning langsat; dan jika tergores, keluar aroma wangi. Hal-hal tersebut membuat nilai jual jeruk semakin tinggi.\n\nJika buah jeruk terasa keras jika ditekan, berwarna hijau, dan tidak mengeluarkan aroma, manakah simpulan yang BENAR?",
-    options: [
+      question: "Apabila sudah siap panen, jeruk akan terasa empuk jika ditekan; kulitnya berwarna kuning langsat; dan jika tergores, keluar aroma wangi. Hal-hal tersebut membuat nilai jual jeruk semakin tinggi.\n\nJika buah jeruk terasa keras jika ditekan, berwarna hijau, dan tidak mengeluarkan aroma, manakah simpulan yang BENAR?",
+      options: [
       "Buah jeruk belum siap dipanen.",
       "Buah jeruk harganya murah.",
       "Buah jeruk harganya mahal.",
       "Buah jeruk tidak bisa dijual.",
       "Buah jeruk rasanya masam."],
-    correct: "Buah jeruk belum siap dipanen.",
-  },
-  {
-    question: "..., 5, 7, 9, 11, 13.\n\nAngka yang paling sesuai untuk melengkapi deret tersebut adalah ….",
-    options: ["0", "1", "2", "3", "4"],
-    correct: "3",
-  },
+      correct: "Buah jeruk belum siap dipanen.",
+    },
+    {
+      question: "..., 5, 7, 9, 11, 13.\n\nAngka yang paling sesuai untuk melengkapi deret tersebut adalah ….",
+      options: ["0", "1", "2", "3", "4"],
+      correct: "3",
+    },
     {
       question: "Berapa hasil dari 8 × 7?",
       options: ["49", "54", "56", "64"],
