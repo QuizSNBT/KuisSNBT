@@ -8,7 +8,7 @@ const startBtnContainer = document.querySelector(".start-btn-container");
 let selectedSubtest = [];
 let questionNumber = 0;
 let score = 0;
-const MAX_QUESTIONS = 20; // Jumlah soal per sesi
+const MAX_QUESTIONS = 5; // Jumlah soal per sesi
 
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
@@ -212,11 +212,6 @@ const quizData = {
     question: "..., 5, 7, 9, 11, 13.\n\nAngka yang paling sesuai untuk melengkapi deret tersebut adalah ….",
     options: ["0", "1", "2", "3", "4"],
     correct: "3"
-  },
-  {
-    question: "Berikut ini adalah data pengunjung dua fasilitas umum, yaitu perpustakaan dan museum, pada bulan Januari 2022 dari hari Senin sampai dengan Jumat.\n\nBerdasarkan data tersebut, jumlah pengunjung terendah kedua fasilitas tersebut terjadi pada hari ….?",
-    options: ["Senin", "Selasa", "Rabu", "Kamis", "Jumat"],
-    correct: "Selasa"
   },
   {
     question: "Dua dus minuman dibagikan kepada empat kelompok kerja dengan ketentuan sebagai berikut.\n\n1. Kelompok B mendapatkan 2 kali lebih banyak dibandingkan kelompok C.\n2. Kelompok A mendapatkan ½ bagian keseluruhan.\n3. Kelompok C dan D mendapatkan pembagian sama rata dari minuman yang tersisa.\n4. Setiap dus berisi 24 kotak minuman ringan.\n\nInformasi yang dapat digunakan untuk mengetahui jumlah kotak minuman yang diterima oleh kelompok A adalah ….?",
