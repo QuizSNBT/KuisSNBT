@@ -127,7 +127,7 @@ const quizData = {
       "Banyak produk kesehatan yang menggunakan bahan dasar ekstrak buah mangga."
     ],
     correct: [
-      "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",]
+      "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",
   },
   {
     question: "Jika suatu kota mengalami pertumbuhan penduduk yang tinggi, manakah faktor yang PALING MUNGKIN menjadi penyebab utama dari peningkatan tersebut?",
@@ -138,12 +138,12 @@ const quizData = {
       "Meningkatnya angka perpindahan keluar",
       "Menurunnya jumlah fasilitas umum"
     ],
-    correct: "Meningkatnya angka kelahiran"
+    correct: "Meningkatnya angka kelahiran",
   },
   {
     question: "Berdasarkan aturan perhitungan yang diberikan, manakah pernyataan yang paling sesuai untuk melengkapi deret angka berikut?\n\n3, 6, 12, 24, 48, ...",
     options: ["60", "72", "96", "120", "144"],
-    correct: "96"
+    correct: "96",
   },
   {
     question: "Jika seseorang mengonsumsi makanan tinggi lemak jenuh dalam jangka waktu lama, apa dampak kesehatan yang PALING MUNGKIN terjadi?",
@@ -154,37 +154,37 @@ const quizData = {
       "Mempercepat metabolisme tubuh",
       "Mengurangi kadar gula dalam darah"
     ],
-    correct: "Meningkatkan kadar kolesterol darah"
+    correct: "Meningkatkan kadar kolesterol darah",
   },
   {
     question: "Jika setiap siswa dalam suatu kelas memiliki satu buku matematika dan dua buku bahasa Inggris, serta terdapat 30 siswa di kelas tersebut, berapa total buku yang ada di kelas?",
     options: ["60", "90", "120", "150", "180"],
-    correct: "90"
+    correct: "90",
   },
   {
     question: "Sebuah perusahaan mengalami peningkatan produksi sebesar 20% per tahun. Jika pada tahun pertama produksi mereka adalah 10.000 unit, berapa unit yang akan mereka hasilkan pada tahun ketiga?",
     options: ["12.000", "14.400", "15.600", "17.280", "18.000"],
-    correct: "14.400"
+    correct: "14.400",
   },
   {
     question: "Jika jumlah total sudut dalam suatu poligon adalah 540 derajat, berapakah jumlah sisi poligon tersebut?",
     options: ["4", "5", "6", "7", "8"],
-    correct: "5"
+    correct: "5",
   },
   {
     question: "Jika rata-rata nilai ujian dari 5 siswa adalah 80, dan empat siswa pertama memiliki nilai 75, 80, 85, dan 90, berapakah nilai siswa kelima?",
     options: ["70", "75", "80", "85", "90"],
-    correct: "70"
+    correct: "70",
   },
   {
     question: "Dalam suatu perlombaan lari, jika peserta pertama menyelesaikan lomba dalam waktu 10 menit, peserta kedua dalam 12 menit, dan peserta ketiga dalam 15 menit, berapakah rata-rata waktu penyelesaian lomba?",
     options: ["11 menit", "12 menit", "13 menit", "14 menit", "15 menit"],
-    correct: "12,33 menit"
+    correct: "12,33 menit",
   },
   {
     question: "Jika suhu suatu zat meningkat dari 25°C menjadi 75°C, dan kenaikan suhu terjadi secara konstan selama 10 menit, berapakah rata-rata kenaikan suhu per menit?",
     options: ["4°C", "5°C", "6°C", "7°C", "8°C"],
-    correct: "5°C"
+    correct: "5°C",
 
   {
     question: "Hadiah wisata ke luar negeri diberikan oleh perusahaan Z jika pekerjanya memiliki penilaian kinerja sangat baik dua tahun berturut-turut dan dinominasikan oleh rekan kerja dan atasannya. Pekerja C disukai oleh rekan kerjanya serta mendapatkan penilaian kinerja sangat baik tahun kemarin.\n\nManakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
@@ -195,7 +195,7 @@ const quizData = {
       "Simpulan tidak relevan dengan informasi yang diberikan.",
       "Simpulan tidak dapat dinilai karena informasi tidak cukup."
     ],
-    correct: "Simpulan tersebut pasti salah."
+    correct: "Simpulan tersebut pasti salah.",
   },
   {
     question: "Dewasa ini pemanfaatan kendaraan yang ramah lingkungan banyak digunakan oleh masyarakat. Dengan pemanfaatan ini, konsumsi bahan bakar minyak di masyarakat mampu mendatangkan efisiensi sebesar 20%–30% setiap tahunnya.\n\nBerdasarkan paragraf tersebut, manakah yang PALING MUNGKIN menjadi asumsi yang mendasari argumen di atas?",
@@ -206,22 +206,22 @@ const quizData = {
       "Banyak produsen kendaraan menggunakan teknologi ramah lingkungan pada kendaraan produksinya.",
       "Hemat energi menjadi program yang gencar disosialisasikan oleh pemerintah negara X."
     ],
-    correct: "Kesadaran masyarakat untuk memanfaatkan teknologi yang ramah lingkungan semakin meningkat."
+    correct: "Kesadaran masyarakat untuk memanfaatkan teknologi yang ramah lingkungan semakin meningkat.",
   },
   {
     question: "..., 5, 7, 9, 11, 13.\n\nAngka yang paling sesuai untuk melengkapi deret tersebut adalah ….",
     options: ["0", "1", "2", "3", "4"],
-    correct: "3"
+    correct: "3",
   },
   {
     question: "Berikut ini adalah data pengunjung dua fasilitas umum, yaitu perpustakaan dan museum, pada bulan Januari 2022 dari hari Senin sampai dengan Jumat.\n\nBerdasarkan data tersebut, jumlah pengunjung terendah kedua fasilitas tersebut terjadi pada hari ….?",
     options: ["Senin", "Selasa", "Rabu", "Kamis", "Jumat"],
-    correct: "Selasa"
+    correct: "Selasa",
   },
   {
     question: "Dua dus minuman dibagikan kepada empat kelompok kerja dengan ketentuan sebagai berikut.\n\n1. Kelompok B mendapatkan 2 kali lebih banyak dibandingkan kelompok C.\n2. Kelompok A mendapatkan ½ bagian keseluruhan.\n3. Kelompok C dan D mendapatkan pembagian sama rata dari minuman yang tersisa.\n4. Setiap dus berisi 24 kotak minuman ringan.\n\nInformasi yang dapat digunakan untuk mengetahui jumlah kotak minuman yang diterima oleh kelompok A adalah ….?",
     options: ["1 dan 2", "1 dan 3", "2 dan 3", "2 dan 4", "3 dan 4"],
-    correct: "2 dan 4"
+    correct: "2 dan 4",
   },
   {
     question: "Jika sudah siap panen, jeruk akan terasa empuk jika ditekan; kulitnya berwarna kuning langsat; dan jika tergores, keluar aroma wangi. Hal-hal tersebut membuat nilai jual jeruk semakin tinggi.\n\nJika buah jeruk terasa keras jika ditekan, berwarna hijau, dan tidak mengeluarkan aroma, manakah simpulan yang BENAR?",
@@ -232,13 +232,9 @@ const quizData = {
       "Buah jeruk tidak bisa dijual.",
       "Buah jeruk rasanya masam."
     ],
-    correct: "Buah jeruk belum siap dipanen."
+    correct: "Buah jeruk belum siap dipanen.",
   },
-  {
-    question: "Tabel berikut menunjukkan jumlah siswa yang lulus dan gagal pada ujian Bahasa Indonesia yang dilaksanakan dalam lima gelombang.\n\nPada gelombang berapa persentase kelulusan TERTINGGI terjadi?",
-    options: ["I", "II", "III", "IV", "V"],
-    correct: "II"
-  },
+
   {
     question: "Buah mangga mengandung vitamin C dan antioksidan sehingga dapat meningkatkan kekebalan tubuh serta membantu melawan infeksi virus. Penelitian terbaru menunjukkan bahwa mengonsumsi buah mangga dapat mencegah kanker dan menurunkan kadar kolesterol.\n\nManakah DUA simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
     options: [
@@ -248,7 +244,7 @@ const quizData = {
       "Mengonsumsi mangga disarankan agar dapat terhindar dari risiko penyakit tertentu.",
       "Banyak produk kesehatan yang menggunakan bahan dasar ekstrak buah mangga."
     ],
-    correct: ["Banyak penderita kanker yang mencari buah mangga untuk pengobatan.", "Mengonsumsi mangga disarankan agar dapat terhindar dari risiko penyakit tertentu."]
+    correct: ["Banyak penderita kanker yang mencari buah mangga untuk pengobatan.", "Mengonsumsi mangga disarankan agar dapat terhindar dari risiko penyakit tertentu."
   },
   {
     question: "Kebiasaan tidur dengan posisi tengkurap dianggap buruk bagi kesehatan karena dapat memberikan tekanan pada bagian punggung dan leher yang mengakibatkan nyeri. Selain itu, tidur tengkurap juga dapat menyebabkan kesemutan. Meskipun demikian, tidur tengkurap dapat membuka saluran pernapasan sehingga dapat mengurangi dengkuran.\n\nBerdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
@@ -259,7 +255,7 @@ const quizData = {
       "Nyeri punggung dan leher dialami oleh orang yang mendengkur.",
       "Dengkuran sebagian orang yang tidur tengkurap berkurang."
     ],
-    correct: "Dengkuran sebagian orang yang tidur tengkurap berkurang."
+    correct: "Dengkuran sebagian orang yang tidur tengkurap berkurang.",
   },
   {
     question: "Apabila sudah siap panen, jeruk akan terasa empuk jika ditekan; kulitnya berwarna kuning langsat; dan jika tergores, keluar aroma wangi. Hal-hal tersebut membuat nilai jual jeruk semakin tinggi.\n\nJika buah jeruk terasa keras jika ditekan, berwarna hijau, dan tidak mengeluarkan aroma, manakah simpulan yang BENAR?",
@@ -270,12 +266,12 @@ const quizData = {
       "Buah jeruk tidak bisa dijual.",
       "Buah jeruk rasanya masam."
     ],
-    correct: "Buah jeruk belum siap dipanen."
+    correct: "Buah jeruk belum siap dipanen.",
   },
   {
     question: "..., 5, 7, 9, 11, 13.\n\nAngka yang paling sesuai untuk melengkapi deret tersebut adalah ….",
     options: ["0", "1", "2", "3", "4"],
-    correct: "3"
+    correct: "3",
   },
 
     {
