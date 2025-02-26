@@ -8,7 +8,7 @@ const startBtnContainer = document.querySelector(".start-btn-container");
 let selectedSubtest = [];
 let questionNumber = 0;
 let score = 0;
-const MAX_QUESTIONS = 10; // Jumlah soal per sesi
+const MAX_QUESTIONS = 20; // Jumlah soal per sesi
 
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
@@ -124,8 +124,7 @@ const quizData = {
       "Harga buah mangga menjadi mahal karena memiliki manfaat untuk kesehatan.",
       "Jumlah buah mangga yang dikonsumsi memengaruhi khasiat buah mangga untuk mencegah kanker.",
       "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",
-      "Banyak produk kesehatan yang menggunakan bahan dasar ekstrak buah mangga."
-    ],
+      "Banyak produk kesehatan yang menggunakan bahan dasar ekstrak buah mangga."],
     correct: 
       "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",
   },
@@ -136,8 +135,7 @@ const quizData = {
       "Meningkatnya angka kematian",
       "Berkurangnya migrasi masuk",
       "Meningkatnya angka perpindahan keluar",
-      "Menurunnya jumlah fasilitas umum"
-    ],
+      "Menurunnya jumlah fasilitas umum"],
     correct: "Meningkatnya angka kelahiran",
   },
   {
@@ -152,8 +150,7 @@ const quizData = {
       "Menurunkan risiko penyakit jantung",
       "Mengurangi risiko tekanan darah tinggi",
       "Mempercepat metabolisme tubuh",
-      "Mengurangi kadar gula dalam darah"
-    ],
+      "Mengurangi kadar gula dalam darah"],
     correct: "Meningkatkan kadar kolesterol darah",
   },
   {
@@ -193,8 +190,7 @@ const quizData = {
       "Simpulan tersebut mungkin benar.",
       "Simpulan tersebut pasti salah.",
       "Simpulan tidak relevan dengan informasi yang diberikan.",
-      "Simpulan tidak dapat dinilai karena informasi tidak cukup."
-    ],
+      "Simpulan tidak dapat dinilai karena informasi tidak cukup."],
     correct: "Simpulan tersebut pasti salah.",
   },
   {
@@ -204,8 +200,7 @@ const quizData = {
       "Kendaraan yang ramah lingkungan menjadi pilihan sebagian besar masyarakat.",
       "Kesadaran masyarakat untuk memanfaatkan teknologi yang ramah lingkungan semakin meningkat.",
       "Banyak produsen kendaraan menggunakan teknologi ramah lingkungan pada kendaraan produksinya.",
-      "Hemat energi menjadi program yang gencar disosialisasikan oleh pemerintah negara X."
-    ],
+      "Hemat energi menjadi program yang gencar disosialisasikan oleh pemerintah negara X."],
     correct: "Kesadaran masyarakat untuk memanfaatkan teknologi yang ramah lingkungan semakin meningkat.",
   },
   {
@@ -225,8 +220,7 @@ const quizData = {
       "Buah jeruk harganya murah.",
       "Buah jeruk harganya mahal.",
       "Buah jeruk tidak bisa dijual.",
-      "Buah jeruk rasanya masam."
-    ],
+      "Buah jeruk rasanya masam."],
     correct: "Buah jeruk belum siap dipanen.",
   },
   {
@@ -241,8 +235,7 @@ const quizData = {
       "Jumlah buah mangga yang dikonsumsi memengaruhi khasiat buah mangga untuk mencegah kanker.",
       "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",
       "Mengonsumsi mangga disarankan agar dapat terhindar dari risiko penyakit tertentu.",
-      "Banyak produk kesehatan yang menggunakan bahan dasar ekstrak buah mangga."
-    ],
+      "Banyak produk kesehatan yang menggunakan bahan dasar ekstrak buah mangga."],
     correct: "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.", "Mengonsumsi mangga disarankan agar dapat terhindar dari risiko penyakit tertentu.",
   },
   {
@@ -252,8 +245,7 @@ const quizData = {
       "Kesemutan akibat tidur tengkurap dapat menyebabkan tidur menjadi tidak nyenyak.",
       "Orang yang memiliki gangguan pernapasan dapat disembuhkan dengan tidur tengkurap.",
       "Nyeri punggung dan leher dialami oleh orang yang mendengkur.",
-      "Dengkuran sebagian orang yang tidur tengkurap berkurang."
-    ],
+      "Dengkuran sebagian orang yang tidur tengkurap berkurang."],
     correct: "Dengkuran sebagian orang yang tidur tengkurap berkurang.",
   },
   {
@@ -263,8 +255,7 @@ const quizData = {
       "Buah jeruk harganya murah.",
       "Buah jeruk harganya mahal.",
       "Buah jeruk tidak bisa dijual.",
-      "Buah jeruk rasanya masam."
-    ],
+      "Buah jeruk rasanya masam."],
     correct: "Buah jeruk belum siap dipanen.",
   },
   {
