@@ -119,6 +119,74 @@ const quizData = {
   ],
   pu: [
   {
+    question: "Buah mangga mengandung vitamin C dan antioksidan sehingga dapat meningkatkan kekebalan tubuh serta membantu melawan infeksi virus. Penelitian terbaru menunjukkan bahwa mengonsumsi buah mangga dapat mencegah kanker dan menurunkan kadar kolesterol.\n\nManakah DUA simpulan yang PALING DIDUKUNG oleh bacaan tersebut?", Berdasarkan data yang tersedia, manakah simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
+    options: [
+      "Harga buah mangga menjadi mahal karena memiliki manfaat untuk kesehatan.",
+      "Jumlah buah mangga yang dikonsumsi memengaruhi khasiat buah mangga untuk mencegah kanker.",
+      "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",
+      "Banyak produk kesehatan yang menggunakan bahan dasar ekstrak buah mangga."
+    ],
+    correct: [
+      "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",]
+  },
+  {
+    question: "Jika suatu kota mengalami pertumbuhan penduduk yang tinggi, manakah faktor yang PALING MUNGKIN menjadi penyebab utama dari peningkatan tersebut?",
+    options: [
+      "Meningkatnya angka kelahiran",
+      "Meningkatnya angka kematian",
+      "Berkurangnya migrasi masuk",
+      "Meningkatnya angka perpindahan keluar",
+      "Menurunnya jumlah fasilitas umum"
+    ],
+    correct: "Meningkatnya angka kelahiran"
+  },
+  {
+    question: "Berdasarkan aturan perhitungan yang diberikan, manakah pernyataan yang paling sesuai untuk melengkapi deret angka berikut?\n\n3, 6, 12, 24, 48, ...",
+    options: ["60", "72", "96", "120", "144"],
+    correct: "96"
+  },
+  {
+    question: "Jika seseorang mengonsumsi makanan tinggi lemak jenuh dalam jangka waktu lama, apa dampak kesehatan yang PALING MUNGKIN terjadi?",
+    options: [
+      "Meningkatkan kadar kolesterol darah",
+      "Menurunkan risiko penyakit jantung",
+      "Mengurangi risiko tekanan darah tinggi",
+      "Mempercepat metabolisme tubuh",
+      "Mengurangi kadar gula dalam darah"
+    ],
+    correct: "Meningkatkan kadar kolesterol darah"
+  },
+  {
+    question: "Jika setiap siswa dalam suatu kelas memiliki satu buku matematika dan dua buku bahasa Inggris, serta terdapat 30 siswa di kelas tersebut, berapa total buku yang ada di kelas?",
+    options: ["60", "90", "120", "150", "180"],
+    correct: "90"
+  },
+  {
+    question: "Sebuah perusahaan mengalami peningkatan produksi sebesar 20% per tahun. Jika pada tahun pertama produksi mereka adalah 10.000 unit, berapa unit yang akan mereka hasilkan pada tahun ketiga?",
+    options: ["12.000", "14.400", "15.600", "17.280", "18.000"],
+    correct: "14.400"
+  },
+  {
+    question: "Jika jumlah total sudut dalam suatu poligon adalah 540 derajat, berapakah jumlah sisi poligon tersebut?",
+    options: ["4", "5", "6", "7", "8"],
+    correct: "5"
+  },
+  {
+    question: "Jika rata-rata nilai ujian dari 5 siswa adalah 80, dan empat siswa pertama memiliki nilai 75, 80, 85, dan 90, berapakah nilai siswa kelima?",
+    options: ["70", "75", "80", "85", "90"],
+    correct: "70"
+  },
+  {
+    question: "Dalam suatu perlombaan lari, jika peserta pertama menyelesaikan lomba dalam waktu 10 menit, peserta kedua dalam 12 menit, dan peserta ketiga dalam 15 menit, berapakah rata-rata waktu penyelesaian lomba?",
+    options: ["11 menit", "12 menit", "13 menit", "14 menit", "15 menit"],
+    correct: "12,33 menit"
+  },
+  {
+    question: "Jika suhu suatu zat meningkat dari 25°C menjadi 75°C, dan kenaikan suhu terjadi secara konstan selama 10 menit, berapakah rata-rata kenaikan suhu per menit?",
+    options: ["4°C", "5°C", "6°C", "7°C", "8°C"],
+    correct: "5°C"
+
+  {
     question: "Hadiah wisata ke luar negeri diberikan oleh perusahaan Z jika pekerjanya memiliki penilaian kinerja sangat baik dua tahun berturut-turut dan dinominasikan oleh rekan kerja dan atasannya. Pekerja C disukai oleh rekan kerjanya serta mendapatkan penilaian kinerja sangat baik tahun kemarin.\n\nManakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
     options: [
       "Simpulan tersebut pasti benar.",
