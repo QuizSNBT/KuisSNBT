@@ -8,7 +8,7 @@ const startBtnContainer = document.querySelector(".start-btn-container");
 let selectedSubtest = [];
 let questionNumber = 0;
 let score = 0;
-const MAX_QUESTIONS = 20; // Jumlah soal per sesi
+const MAX_QUESTIONS = 5; // Jumlah soal per sesi
 
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
@@ -22,10 +22,10 @@ const quizData = {
         "Peningkatan Pangsa Pasar di Indonesia pada Tahun 2020",
         "Penambahan Jumlah Lapangan Kerja di Sektor Digital dan Teknologi",
         "Peluang Kenaikan Lapangan Kerja 2020",
-        "Kenaikan Gaji di Sektor Digital dan Teknologi",
-      ],
+        "Kenaikan Gaji di Sektor Digital dan Teknologi"],
       correct: "Penambahan Jumlah Lapangan Kerja di Sektor Digital dan Teknologi",
     },
+    
     {
       question: "Teks berikut untuk menjawab soal nomor 1 sampai 7!\n\nIndonesia akan mengalami peningkatan pangsa pasar serta penambahan jumlah startup serta berbagai produk dan layanan baru berbasis digital pada 2020, terutama dalam kategori teknologi finansial. Banyak orang berfikir bahwa tren itu pun menyiapkan banyak lapangan pekerjaan tahun depan. Hal itu turut mendongkrak potensi kenaikan gaji para profesional di bidang teknologi dan digital bila pindah bekerja dalam industri yang sama tahun depan. Potensi kenaikannya bahkan hingga 50%.\n\nKata yang salah digunakan pada paragraf pertama adalah ....",
       options: ["digital", "berfikir", "mendongkrak", "menyiapkan"],
@@ -119,14 +119,14 @@ const quizData = {
   ],
   pu: [
   {
-    question: "Buah mangga mengandung vitamin C dan antioksidan sehingga dapat meningkatkan kekebalan tubuh serta membantu melawan infeksi virus. Penelitian terbaru menunjukkan bahwa mengonsumsi buah mangga dapat mencegah kanker dan menurunkan kadar kolesterol.\n\nManakah DUA simpulan yang PALING DIDUKUNG oleh bacaan tersebut?", Berdasarkan data yang tersedia, manakah simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
+    question: "Buah mangga mengandung vitamin C dan antioksidan sehingga dapat meningkatkan kekebalan tubuh serta membantu melawan infeksi virus. Penelitian terbaru menunjukkan bahwa mengonsumsi buah mangga dapat mencegah kanker dan menurunkan kadar kolesterol.\n\nManakah DUA simpulan yang PALING DIDUKUNG oleh bacaan tersebut?, Berdasarkan data yang tersedia, manakah simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
     options: [
       "Harga buah mangga menjadi mahal karena memiliki manfaat untuk kesehatan.",
       "Jumlah buah mangga yang dikonsumsi memengaruhi khasiat buah mangga untuk mencegah kanker.",
       "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",
       "Banyak produk kesehatan yang menggunakan bahan dasar ekstrak buah mangga."
     ],
-    correct: [
+    correct: 
       "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",
   },
   {
@@ -185,7 +185,7 @@ const quizData = {
     question: "Jika suhu suatu zat meningkat dari 25°C menjadi 75°C, dan kenaikan suhu terjadi secara konstan selama 10 menit, berapakah rata-rata kenaikan suhu per menit?",
     options: ["4°C", "5°C", "6°C", "7°C", "8°C"],
     correct: "5°C",
-
+    },
   {
     question: "Hadiah wisata ke luar negeri diberikan oleh perusahaan Z jika pekerjanya memiliki penilaian kinerja sangat baik dua tahun berturut-turut dan dinominasikan oleh rekan kerja dan atasannya. Pekerja C disukai oleh rekan kerjanya serta mendapatkan penilaian kinerja sangat baik tahun kemarin.\n\nManakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
     options: [
@@ -236,16 +236,16 @@ const quizData = {
   },
 
   {
-    question: "Buah mangga mengandung vitamin C dan antioksidan sehingga dapat meningkatkan kekebalan tubuh serta membantu melawan infeksi virus. Penelitian terbaru menunjukkan bahwa mengonsumsi buah mangga dapat mencegah kanker dan menurunkan kadar kolesterol.\n\nManakah DUA simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
+    question: "Buah mangga mengandung vitamin C dan antioksidan sehingga dapat meningkatkan kekebalan tubuh serta membantu melawan infeksi virus. Penelitian terbaru menunjukkan bahwa mengonsumsi buah mangga dapat mencegah kanker dan menurunkan kadar kolesterol.\n\nManakah simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
     options: [
       "Harga buah mangga menjadi mahal karena memiliki manfaat untuk kesehatan.",
       "Jumlah buah mangga yang dikonsumsi memengaruhi khasiat buah mangga untuk mencegah kanker.",
       "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",
-      "Mengonsumsi mangga disarankan agar dapat terhindar dari risiko penyakit tertentu.",
       "Banyak produk kesehatan yang menggunakan bahan dasar ekstrak buah mangga."
     ],
-    correct: ["Banyak penderita kanker yang mencari buah mangga untuk pengobatan.", "Mengonsumsi mangga disarankan agar dapat terhindar dari risiko penyakit tertentu."
+    correct: "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",
   },
+  
   {
     question: "Kebiasaan tidur dengan posisi tengkurap dianggap buruk bagi kesehatan karena dapat memberikan tekanan pada bagian punggung dan leher yang mengakibatkan nyeri. Selain itu, tidur tengkurap juga dapat menyebabkan kesemutan. Meskipun demikian, tidur tengkurap dapat membuka saluran pernapasan sehingga dapat mengurangi dengkuran.\n\nBerdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
     options: [
@@ -405,8 +405,7 @@ const createQuestion = () => {
   }
 
   options.innerHTML = "";
-  question.innerHTML = `<span class='question-number'>${questionNumber +
-    1}/${MAX_QUESTIONS}</span> ${selectedSubtest[questionNumber].question}`;
+  question.innerHTML = `<span class='question-number'>${questionNumber + 1}/${MAX_QUESTIONS}</span> ${selectedSubtest[questionNumber].question}`;
 
   shuffleArray(selectedSubtest[questionNumber].options).forEach((o) => {
     const option = document.createElement("button");
@@ -415,13 +414,16 @@ const createQuestion = () => {
     option.addEventListener("click", checkAnswer);
     options.appendChild(option);
   });
+
+  startTimer(); // Memulai timer setiap kali pertanyaan baru muncul
 };
 
 const displayQuizResult = () => {
   quizContainer.style.display = "none";
   quizResult.style.display = "block";
-  quizResult.innerHTML = `<h2>Skor Kamu: ${score} dari ${MAX_QUESTIONS}</h2>`;
-
+  
+  quizResult.innerHTML = `<h2>Kamu benar: ${score} dari ${MAX_QUESTIONS}</h2>`;
+  
   selectedSubtest.forEach((q, i) => {
     const userAnswer = localStorage.getItem(`userAnswer_${i}`) || "Tidak Dijawab";
     const correctAnswer = q.correct;
@@ -436,12 +438,21 @@ const displayQuizResult = () => {
     `;
   });
 
+  const retakeBtn = document.createElement("button");
+  retakeBtn.classList.add("retake-btn");
+  retakeBtn.innerHTML = "Ulangi Kuis";
+  
+  retakeBtn.addEventListener("click", () => location.reload());
+  
+  quizResult.appendChild(retakeBtn);
+};
+
 let timer;
-let timeLeft = 60;
+let timeLeft = 30;
 
 const startTimer = () => {
   clearInterval(timer); // Reset timer jika sebelumnya ada
-  timeLeft = 60;
+  timeLeft = MAX_QUESTIONS * (10 / MAX_QUESTIONS); // Set waktu awal
   updateTimerDisplay();
 
   timer = setInterval(() => {
@@ -457,73 +468,40 @@ const startTimer = () => {
 
 const updateTimerDisplay = () => {
   const timerDisplay = document.querySelector(".timer");
+  
   if (timerDisplay) {
     timerDisplay.textContent = `Waktu tersisa: ${timeLeft}s`;
     timerDisplay.style.color = timeLeft <= 5 ? "red" : "black"; // Ubah warna ke merah saat <5 detik
   }
 };
 
-// Perbaiki createQuestion agar selalu memulai timer baru
-const createQuestion = () => {
-  if (questionNumber >= selectedSubtest.length) {
-    displayQuizResult();
-    return;
-  }
-
-  options.innerHTML = "";
-  question.innerHTML = `<span class='question-number'>${questionNumber + 1}/${MAX_QUESTIONS}</span> ${selectedSubtest[questionNumber].question}`;
-
-  shuffleArray(selectedSubtest[questionNumber].options).forEach((o) => {
-    const option = document.createElement("button");
-    option.classList.add("option");
-    option.innerHTML = o;
-    option.addEventListener("click", checkAnswer);
-    options.appendChild(option);
-  });
-
-  startTimer(); // Selalu mulai ulang timer saat soal baru muncul
-};
-
 const displayNextQuestion = () => {
-  if (questionNumber < selectedSubtest.length - 1) {
-    questionNumber++;
-    createQuestion();
-  } else {
-    displayQuizResult();
-  }
-};
-  const retakeBtn = document.createElement("button");
-  retakeBtn.classList.add("retake-btn");
-  retakeBtn.innerHTML = "Ulangi Kuis";
-  retakeBtn.addEventListener("click", () => location.reload());
-  quizResult.appendChild(retakeBtn);
+   if (questionNumber < selectedSubtest.length - 1) {
+     questionNumber++;
+     createQuestion();
+   } else {
+     displayQuizResult();
+   }
 };
 
 function openSubtestPopup() {
-  document.getElementById("subtest-popup").classList.add("show");
+   document.getElementById("subtest-popup").classList.add("show");
 }
 
 function closeSubtestPopup() {
-  document.getElementById("subtest-popup").classList.remove("show");
+   document.getElementById("subtest-popup").classList.remove("show");
 }
 
 function startQuiz(subtest) {
-  selectedSubtest = shuffleArray([...quizData[subtest]]).slice(0, MAX_QUESTIONS);
-  questionNumber = 0;
-  score = 0;
+   selectedSubtest = shuffleArray([...quizData[subtest]]).slice(0, MAX_QUESTIONS);
+   questionNumber = 0;
+   score = 0;
 
-  startBtnContainer.style.display = "none";
-  document.getElementById("subtest-popup").classList.remove("show");
-  quizContainer.style.display = "block";
+   startBtnContainer.style.display = "none";
+   document.getElementById("subtest-popup").classList.remove("show");
+   quizContainer.style.display = "block";
 
-  createQuestion();
+   createQuestion();
 }
 
-nextBtn.addEventListener("click", () => {
-  if (questionNumber < selectedSubtest.length - 1) {
-    questionNumber++;
-    createQuestion();
-  } else {
-    displayQuizResult();
-  }
-});
+nextBtn.addEventListener("click", displayNextQuestion);
