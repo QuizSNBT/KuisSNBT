@@ -119,6 +119,59 @@ const quizData = {
   ],
   pu: [
   {
+    question: "Hadiah wisata ke luar negeri diberikan oleh perusahaan Z jika pekerjanya memiliki penilaian kinerja sangat baik dua tahun berturut-turut dan dinominasikan oleh rekan kerja dan atasannya. Pekerja C disukai oleh rekan kerjanya serta mendapatkan penilaian kinerja sangat baik tahun kemarin.\n\nManakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+    options: [
+      "Simpulan tersebut pasti benar.",
+      "Simpulan tersebut mungkin benar.",
+      "Simpulan tersebut pasti salah.",
+      "Simpulan tidak relevan dengan informasi yang diberikan.",
+      "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+    ],
+    correct: "Simpulan tersebut pasti salah."
+  },
+  {
+    question: "Dewasa ini pemanfaatan kendaraan yang ramah lingkungan banyak digunakan oleh masyarakat. Dengan pemanfaatan ini, konsumsi bahan bakar minyak di masyarakat mampu mendatangkan efisiensi sebesar 20%–30% setiap tahunnya.\n\nBerdasarkan paragraf tersebut, manakah yang PALING MUNGKIN menjadi asumsi yang mendasari argumen di atas?",
+    options: [
+      "Masyarakat menjadi lebih hemat ketika menggunakan kendaraan yang ramah lingkungan.",
+      "Kendaraan yang ramah lingkungan menjadi pilihan sebagian besar masyarakat.",
+      "Kesadaran masyarakat untuk memanfaatkan teknologi yang ramah lingkungan semakin meningkat.",
+      "Banyak produsen kendaraan menggunakan teknologi ramah lingkungan pada kendaraan produksinya.",
+      "Hemat energi menjadi program yang gencar disosialisasikan oleh pemerintah negara X."
+    ],
+    correct: "Kesadaran masyarakat untuk memanfaatkan teknologi yang ramah lingkungan semakin meningkat."
+  },
+  {
+    question: "..., 5, 7, 9, 11, 13.\n\nAngka yang paling sesuai untuk melengkapi deret tersebut adalah ….",
+    options: ["0", "1", "2", "3", "4"],
+    correct: "3"
+  },
+  {
+    question: "Berikut ini adalah data pengunjung dua fasilitas umum, yaitu perpustakaan dan museum, pada bulan Januari 2022 dari hari Senin sampai dengan Jumat.\n\nBerdasarkan data tersebut, jumlah pengunjung terendah kedua fasilitas tersebut terjadi pada hari ….?",
+    options: ["Senin", "Selasa", "Rabu", "Kamis", "Jumat"],
+    correct: "Selasa"
+  },
+  {
+    question: "Dua dus minuman dibagikan kepada empat kelompok kerja dengan ketentuan sebagai berikut.\n\n1. Kelompok B mendapatkan 2 kali lebih banyak dibandingkan kelompok C.\n2. Kelompok A mendapatkan ½ bagian keseluruhan.\n3. Kelompok C dan D mendapatkan pembagian sama rata dari minuman yang tersisa.\n4. Setiap dus berisi 24 kotak minuman ringan.\n\nInformasi yang dapat digunakan untuk mengetahui jumlah kotak minuman yang diterima oleh kelompok A adalah ….?",
+    options: ["1 dan 2", "1 dan 3", "2 dan 3", "2 dan 4", "3 dan 4"],
+    correct: "2 dan 4"
+  },
+  {
+    question: "Jika sudah siap panen, jeruk akan terasa empuk jika ditekan; kulitnya berwarna kuning langsat; dan jika tergores, keluar aroma wangi. Hal-hal tersebut membuat nilai jual jeruk semakin tinggi.\n\nJika buah jeruk terasa keras jika ditekan, berwarna hijau, dan tidak mengeluarkan aroma, manakah simpulan yang BENAR?",
+    options: [
+      "Buah jeruk belum siap dipanen.",
+      "Buah jeruk harganya murah.",
+      "Buah jeruk harganya mahal.",
+      "Buah jeruk tidak bisa dijual.",
+      "Buah jeruk rasanya masam."
+    ],
+    correct: "Buah jeruk belum siap dipanen."
+  },
+  {
+    question: "Tabel berikut menunjukkan jumlah siswa yang lulus dan gagal pada ujian Bahasa Indonesia yang dilaksanakan dalam lima gelombang.\n\nPada gelombang berapa persentase kelulusan TERTINGGI terjadi?",
+    options: ["I", "II", "III", "IV", "V"],
+    correct: "II"
+  },
+  {
     question: "Buah mangga mengandung vitamin C dan antioksidan sehingga dapat meningkatkan kekebalan tubuh serta membantu melawan infeksi virus. Penelitian terbaru menunjukkan bahwa mengonsumsi buah mangga dapat mencegah kanker dan menurunkan kadar kolesterol.\n\nManakah DUA simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
     options: [
       "Harga buah mangga menjadi mahal karena memiliki manfaat untuk kesehatan.",
