@@ -497,14 +497,14 @@ function closeSubtestPopup() {
 }
 
 function startQuiz(subtest) {
-  selectedSubtest = shuffleArray([...quizData[subtest]]).slice(0, MAX_QUESTIONS);
-  questionNumber = 0;
-  score = 0;
+    selectedSubtest = shuffleArray([...quizData[subtest]]).slice(0, MAX_QUESTIONS);
+    questionNumber = 0;
+    score = 0;
 
-  startBtnContainer.style.display = "none";
-  document.getElementById("subtest-popup").classList.remove("show");
-  quizContainer.style.display = "block";
-
+    document.querySelector(".start-btn-container").style.display = "none";
+    document.getElementById("subtest-popup").classList.remove("show");
+    document.querySelector(".quiz-container").style.display = "block";
+  
   createQuestion();
 }
 
