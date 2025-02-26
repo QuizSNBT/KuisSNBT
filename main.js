@@ -185,7 +185,7 @@ const quizData = {
     question: "Jika suhu suatu zat meningkat dari 25°C menjadi 75°C, dan kenaikan suhu terjadi secara konstan selama 10 menit, berapakah rata-rata kenaikan suhu per menit?",
     options: ["4°C", "5°C", "6°C", "7°C", "8°C"],
     correct: "5°C"
-
+  },
   {
     question: "Hadiah wisata ke luar negeri diberikan oleh perusahaan Z jika pekerjanya memiliki penilaian kinerja sangat baik dua tahun berturut-turut dan dinominasikan oleh rekan kerja dan atasannya. Pekerja C disukai oleh rekan kerjanya serta mendapatkan penilaian kinerja sangat baik tahun kemarin.\n\nManakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
     options: [
