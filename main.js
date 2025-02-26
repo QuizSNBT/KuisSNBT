@@ -119,17 +119,6 @@ const quizData = {
   ],
   pu: [
   {
-    question: "Negara T adalah negara kepulauan dengan biaya logistik yang tinggi. Pakar logistik menyebutkan hal ini disebabkan tidak meratanya infrastruktur di negara T sehingga tidak semua wilayah dapat dijangkau dengan mudah.\n\nManakah pernyataan-pernyataan berikut yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pendapat pakar logistik tersebut?",
-    options: [
-      "Pemerintah membangun banyak infrastruktur baru untuk memastikan pemerataan pembangunan.",
-      "Pemerintah memberikan kebijakan insentif pajak bagi industri logistik untuk mengurangi beban biaya.",
-      "Masyarakat memilih menggunakan jasa logistik saat berada pada pulau yang sama.",
-      "Perusahaan logistik saat ini memastikan bahwa semua wilayah dapat dijangkau dengan mudah.",
-      "Konsumen memilih perusahaan logistik yang memberikan layanan jangkauan pengiriman yang luas."
-    ],
-    correct: ["Pemerintah membangun banyak infrastruktur baru untuk memastikan pemerataan pembangunan.", "Perusahaan logistik saat ini memastikan bahwa semua wilayah dapat dijangkau dengan mudah."]
-  },
-  {
     question: "Buah mangga mengandung vitamin C dan antioksidan sehingga dapat meningkatkan kekebalan tubuh serta membantu melawan infeksi virus. Penelitian terbaru menunjukkan bahwa mengonsumsi buah mangga dapat mencegah kanker dan menurunkan kadar kolesterol.\n\nManakah DUA simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
     options: [
       "Harga buah mangga menjadi mahal karena memiliki manfaat untuk kesehatan.",
