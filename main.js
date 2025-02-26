@@ -118,6 +118,56 @@ const quizData = {
     },
   ],
   pu: [
+  {
+    question: "Negara T adalah negara kepulauan dengan biaya logistik yang tinggi. Pakar logistik menyebutkan hal ini disebabkan tidak meratanya infrastruktur di negara T sehingga tidak semua wilayah dapat dijangkau dengan mudah.\n\nManakah pernyataan-pernyataan berikut yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pendapat pakar logistik tersebut?",
+    options: [
+      "Pemerintah membangun banyak infrastruktur baru untuk memastikan pemerataan pembangunan.",
+      "Pemerintah memberikan kebijakan insentif pajak bagi industri logistik untuk mengurangi beban biaya.",
+      "Masyarakat memilih menggunakan jasa logistik saat berada pada pulau yang sama.",
+      "Perusahaan logistik saat ini memastikan bahwa semua wilayah dapat dijangkau dengan mudah.",
+      "Konsumen memilih perusahaan logistik yang memberikan layanan jangkauan pengiriman yang luas."
+    ],
+    correct: ["Pemerintah membangun banyak infrastruktur baru untuk memastikan pemerataan pembangunan.", "Perusahaan logistik saat ini memastikan bahwa semua wilayah dapat dijangkau dengan mudah."]
+  },
+  {
+    question: "Buah mangga mengandung vitamin C dan antioksidan sehingga dapat meningkatkan kekebalan tubuh serta membantu melawan infeksi virus. Penelitian terbaru menunjukkan bahwa mengonsumsi buah mangga dapat mencegah kanker dan menurunkan kadar kolesterol.\n\nManakah DUA simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
+    options: [
+      "Harga buah mangga menjadi mahal karena memiliki manfaat untuk kesehatan.",
+      "Jumlah buah mangga yang dikonsumsi memengaruhi khasiat buah mangga untuk mencegah kanker.",
+      "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",
+      "Mengonsumsi mangga disarankan agar dapat terhindar dari risiko penyakit tertentu.",
+      "Banyak produk kesehatan yang menggunakan bahan dasar ekstrak buah mangga."
+    ],
+    correct: ["Banyak penderita kanker yang mencari buah mangga untuk pengobatan.", "Mengonsumsi mangga disarankan agar dapat terhindar dari risiko penyakit tertentu."]
+  },
+  {
+    question: "Kebiasaan tidur dengan posisi tengkurap dianggap buruk bagi kesehatan karena dapat memberikan tekanan pada bagian punggung dan leher yang mengakibatkan nyeri. Selain itu, tidur tengkurap juga dapat menyebabkan kesemutan. Meskipun demikian, tidur tengkurap dapat membuka saluran pernapasan sehingga dapat mengurangi dengkuran.\n\nBerdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+    options: [
+      "Orang yang mengalami kesemutan tidur dengan posisi tengkurap.",
+      "Kesemutan akibat tidur tengkurap dapat menyebabkan tidur menjadi tidak nyenyak.",
+      "Orang yang memiliki gangguan pernapasan dapat disembuhkan dengan tidur tengkurap.",
+      "Nyeri punggung dan leher dialami oleh orang yang mendengkur.",
+      "Dengkuran sebagian orang yang tidur tengkurap berkurang."
+    ],
+    correct: "Dengkuran sebagian orang yang tidur tengkurap berkurang."
+  },
+  {
+    question: "Apabila sudah siap panen, jeruk akan terasa empuk jika ditekan; kulitnya berwarna kuning langsat; dan jika tergores, keluar aroma wangi. Hal-hal tersebut membuat nilai jual jeruk semakin tinggi.\n\nJika buah jeruk terasa keras jika ditekan, berwarna hijau, dan tidak mengeluarkan aroma, manakah simpulan yang BENAR?",
+    options: [
+      "Buah jeruk belum siap dipanen.",
+      "Buah jeruk harganya murah.",
+      "Buah jeruk harganya mahal.",
+      "Buah jeruk tidak bisa dijual.",
+      "Buah jeruk rasanya masam."
+    ],
+    correct: "Buah jeruk belum siap dipanen."
+  },
+  {
+    question: "..., 5, 7, 9, 11, 13.\n\nAngka yang paling sesuai untuk melengkapi deret tersebut adalah ….",
+    options: ["0", "1", "2", "3", "4"],
+    correct: "3"
+  },
+
     {
       question: "Berapa hasil dari 8 × 7?",
       options: ["49", "54", "56", "64"],
