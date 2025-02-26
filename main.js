@@ -131,7 +131,7 @@ const quizData = {
     {
       question: "Semua kucing adalah mamalia. Sebagian mamalia adalah hewan peliharaan. Kesimpulan yang tepat adalah...",
       options: ["Semua kucing adalah hewan peliharaan", "Sebagian kucing adalah hewan peliharaan", "Semua hewan peliharaan adalah kucing", "Tidak ada kesimpulan yang pasti"],
-      correct: "Tidak ada kesimpulan yang pasti",
+      correct: "Sebagian kucing adalah hewan peliharaan",
     },
     {
       question: "Jika Fizi botak, maka Ipin punya rambut, Fizi tidak botak",
@@ -209,9 +209,9 @@ const quizData = {
       correct: "Rp50.000",
     },
     {
-      question: "Jika P -> Q bernilai benar, dan P bernilai salah, maka Q...",
-      options: ["Pasti benar", "Pasti salah", "Bisa benar atau salah", "Tidak dapat ditentukan"],
-      correct: "Bisa benar atau salah",
+      question: "Melihat kucing tiba-tiba mengonsumsi rumput menimbulkan rasa kekhawatiran. Tak jarang juga para pemilik kucing mencoba mencegah kelakuan kucingnya yang tiba-tiba mengunyah rumput liar di sekitaran rumah. Sebuah penelitian mengatakan bahwa hal ini dilakukan karena tanaman yang tidak dapat dicerna kucing itu justru dapat membersihkan pencernaannya dari cacing parasit dengan memuntahkannya. Manakah pernyataan berikut yang akan MEMPERKUAT hasil penelitian tersebut?",
+      options: ["Rumput menjadi makanan sehat bagi kucing karena mudah dicerna.", "Kucing yang muntah setelah memakan rumput memiliki usia yang lebih panjang.", "Kucing yang memakan rumput memiliki cacing parasit dalam organ pencernaannya.", "Pemilik kucing rajin memberikan rumput untuk membersihkan cacing parasit pada kucing."],
+      correct: "Kucing yang muntah setelah memakan rumput memiliki usia yang lebih panjang.",
     },
     {
       question: "Jika setiap hari hujan, maka jalanan basah. Hari ini jalanan tidak basah, maka...",
