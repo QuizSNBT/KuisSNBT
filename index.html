@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LatsolKuy!!</title>
+    <title>Latsol SNBT</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -11,17 +11,20 @@
 <body>
 
     <div class="start-btn-container">
-        <img src="https://iili.io/3Hkmvlp.md.png" 
-             alt="Logo" class="ugm-logo"/>
+        <img src="https://i.ibb.co.com/gZwVhLWY/20250223-093300.jpg" 
+             alt="Logo Universitas Gadjah Mada" class="ugm-logo" />
         <br>
         <center>
-            <a href="https://trakteer.id/rahmanugm" target="_blank" style="text-decoration: none; color: inherit;">
+            <a href="https://x.com/smktougm2025" target="_blank" style="text-decoration: none; color: inherit;">
                 <h5><i class="fa-brands fa-x-twitter"></i> smktougm2025</h5>
             </a>
         </center>
-        <h2>LatsolKuy!</h2>        
-        <br>
-        <button class="start-btn" onclick="openSubtestPopup()"> Perbaikan</button>
+        <h2>LatsolKuy!</h2>
+        <h5>Website ini dikembangkan untuk saling membantu sesama pejuang PTN. Soal yang diambil dari website ini terdiri dari soal recehan yang disebarkan di X dan juga soal UTBK tahun sebelumnya.</h5>
+        <a href="https://trakteer.id/rahmanugm"
+        <h5>Dukung Web Berkembang ✧</h5>
+        </a>
+        <button class="start-btn" onclick="openSubtestPopup()">Mulai</button>
     </div>
 
     <!-- Popup Pilihan Subtes -->
@@ -35,12 +38,11 @@
             <br>
             <br>
             <button class="cs-btn" onclick="#">LITBIND</button>
-            <button class="cs-btn" onclick="#">LITBIG</button>
+            <button class="subtest-btn" onclick="startQuiz('litbig')">LITBIG</button>
             <button class="cs-btn" onclick="#">PM</button>
             <br>
             <br>
              <button class="tutup-btn" onclick="closeSubtestPopup()">Tutup</button>
-             <button class="cs-btn" onclick="window.location.href='https://trakteer.id/rahmanugm';">Beri Saran!</button>
         </div>
     </div>
 
@@ -49,7 +51,7 @@
         <div class="timer"></div>
         <h2 class="question"></h2>
         <div class="options"></div>
-        <button class="next-btn">Lanjut</button>
+        <button class="next-btn">Next</button>
     </div>    
 
     <div class="quiz-result" style="display: none;"></div>
