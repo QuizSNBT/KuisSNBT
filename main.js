@@ -8,7 +8,7 @@ const startBtnContainer = document.querySelector(".start-btn-container");
 let selectedSubtest = [];
 let questionNumber = 0;
 let score = 0;
-const MAX_QUESTIONS = 20; // Jumlah soal per sesi
+const MAX_QUESTIONS = 10; // Jumlah soal per sesi
 
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
